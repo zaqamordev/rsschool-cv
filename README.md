@@ -1,2 +1,1 @@
-# rsschool-cv
-https://zaqamordev.github.io/rsschool-cv/cv
+https://zaqamordev.github.io/rsschool-cv/
