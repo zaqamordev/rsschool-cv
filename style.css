@@ -1,0 +1,32 @@
+.name {
+    color: aqua;
+}
+
+.email {
+    text-decoration: none;
+    color: bisque;
+}
+
+.goal {
+    font-size: 12px;
+}
+
+.skills {
+    color: blue;
+}
+
+.code {
+    color: red;
+}
+
+.experience {
+    color: red;
+}
+
+.education {
+    font-size: 20px;
+}
+
+.english {
+    color: chocolate;
+}
