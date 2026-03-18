@@ -11,3 +11,6 @@ function multiply(a, b){
 ```
 
 Work experience: CV#1: https://zaqamordev.github.io/rsschool-cv/cv
+
+Education: 2015-2019 MRK BSUIR
+
