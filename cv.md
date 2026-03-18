@@ -9,3 +9,5 @@ function multiply(a, b){
  return a * b
 }
 ```
+
+Work experience: CV#1: https://zaqamordev.github.io/rsschool-cv/cv
