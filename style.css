@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap";
 
 /* reset basic styles */
 * {
@@ -10,12 +10,10 @@
 body {
     background-color: #cbc8c8;
     font-family: 'Inter', sans-serif;
-
 }
 
 li {
-    list-style-type: none;
-    
+    list-style-type: none;   
 }
 
 a {
@@ -86,5 +84,8 @@ footer {
     justify-content: space-around;
 }
 
-
+footer img {
+    width: 200px;
+    height: 72px;
+}
 
