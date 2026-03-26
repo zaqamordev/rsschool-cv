@@ -32,3 +32,9 @@ header {
     display: flex;
     justify-content: space-around;
 }
+
+.nav-menu li {
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+}
