@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 /* reset basic styles */
 * {
     margin: 0;
@@ -7,6 +9,8 @@
 
 body {
     background-color: #cbc8c8;
+    font-family: 'Inter', sans-serif;
+
 }
 
 li {
@@ -19,6 +23,10 @@ a {
     color: black;
 }
 
+a:hover {
+    color: #ff0000;
+}
+
 main {
     margin: 0 auto;
     max-width: 800px;
@@ -26,6 +34,23 @@ main {
 
 header {
     padding : 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #0a70f6;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .nav-menu {
@@ -61,6 +86,5 @@ header {
     justify-content: space-around;
 }
 
-.contacts a:hover{
-    color: red;
-}
+
+
