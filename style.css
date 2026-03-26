@@ -51,3 +51,16 @@ header {
     width: 150px;
     height: 150px;
 }
+
+.contacts {
+    padding: 20px;
+}
+
+.contacts ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts a:hover{
+    color: red;
+}
