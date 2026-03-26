@@ -14,15 +14,35 @@
         <title>CV</title>
     </head>
     <body>
-        <main>
-            <h1>Raman Litskevich</h1>
+        <header>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#code-examples">Code Examples</a></li>
+                    <li><a href="#work-experience">Work Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#languages">Languages</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                </ul>
+            </nav>
+        </header>
 
-            <section class="contacts">
-                <h2 class="contacts_header">Contacts</h2>
-                <a href="https://t.me/zaqamor">Telegram</a>
+        <main>
+            <section class="name-photo">
+                <h1>Raman Litskevich</h1>
+                <img src="images/photo.jpg" alt="photo" width="150" height="150">
             </section>
 
-            <section class="about_me">
+            <section class="contacts" id="contacts">
+                <h2 class="contacts_header">Contacts</h2>
+                <ul>
+                    <li><a href="https://t.me/zaqamor">Telegram</a></li>
+                    <li><a href="mailto:litskevich.raman@yandex.ru">Email</a></li>
+                </ul>
+            </section>
+
+            <section class="about_me" id="about-me">
                 <h2 class="about_me_header">About me:</h2>
                 <p class="about_me_text">
                     My background as a Chef and Acting Cafe Manager has equipped
@@ -36,8 +56,8 @@
                 </p>
             </section>
 
-            <section class="code">
-                <h3 class="code_header">Code examples</h3>
+            <section class="code" id="code-examples">
+                <h2 class="code_header">Code examples</h2>
                 <pre>
                     <code>
                 function multiply(a, b){
@@ -47,20 +67,24 @@
                 </pre>
             </section>
 
-            <section class="work">
-                <h3 class="work_header">Work experience:</h3>
+            <section class="work" id="work-experience">
+                <h2 class="work_header">Work experience:</h2>
                 <a href="https://zaqamordev.github.io/rsschool-cv/cv">CV#1</a>
             </section>
 
-            <section class="education">
-                <h3 class="education_header">Education:</h3>
+            <section class="education" id="education">
+                <h2 class="education_header">Education:</h2>
                 <p class="education_text">2015-2019 MRK BSUIR</p>
             </section>
 
-            <section class="languages">
-                <h3 class="languages_header">Languages:</h3>
-                <p class="languages_text">English: B1, Russian: native</p>
+            <section class="skills" id="skills">
+                <h2 class="skills_header">Skills:</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
             </section>
+
         </main>
         <footer>
             <a href="https://github.com/zaqamordev/">github</a>
@@ -69,8 +93,8 @@
                 <img
                     src="images/rs-school-logo.svg"
                     alt="logo"
-                    width="600"
-                    height="216"
+                    width="200"
+                    height="72"
                 >
             </a>
         </footer>
