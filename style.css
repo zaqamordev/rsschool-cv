@@ -1,0 +1,91 @@
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap";
+
+/* reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #cbc8c8;
+    font-family: 'Inter', sans-serif;
+}
+
+li {
+    list-style-type: none;   
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+header {
+    padding : 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #0a70f6;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-menu li {
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+}
+
+.name-photo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.name-photo img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.contacts {
+    padding: 20px;
+}
+
+.contacts ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer img {
+    width: 200px;
+    height: 72px;
+}
+
